@@ -1,0 +1,174 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--
+#REFERENCE USED
+-------------------
+Template Name: PhotoFolio
+Author: <a href="http://www.os-templates.com/">OS Templates</a>
+Author URI: http://www.os-templates.com/
+Licence: Free to use under our free template licence terms
+Licence URI: http://www.os-templates.com/template-terms
+-->
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns="http://www.w3.org/1999/html">
+<head>
+  <title>Matrimony.ca</title>
+  <link rel="shortcut icon" type="image/jpg" href="images/favicon.ico"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+  <link rel="stylesheet" href="layout/styles/layout.css" type="text/css"/>
+  <script type="text/javascript" src="layout/scripts/jquery.min.js"></script>
+  <script type="text/javascript" src="layout/scripts/jquery.ui.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.js"></script>
+  <script type="text/javascript" src="scripts/main.js"></script>
+  <script type="text/javascript" src="scripts/complete_profile.js"></script>
+</head>
+<body id="top">
+<div class="wrapper col1">
+  <div id="header" class="clear">
+    <div class="fl_left">
+      <h1>
+        <a href="index.html">Matrimony.ca</a>
+        <img alt="Canada Flag" src="images/flag.png" width="70"/>
+      </h1>
+    </div>
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper col1">
+  <div id="topbar" class="clear">
+    <ul id="topnav">
+      <li class="active"><a href="complete_profile.html">COMPLETE PROFILE</a></li>
+      <li><a href="aboutus.html" target="_blank">ABOUT US</a></li>
+      <li><a href="login.html">LOG OUT</a></li>
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper col2">
+  <div id="container" class="clear">
+    <!-- ####################################################################################################### -->
+    <div id="content_profile">
+      <h1>Profile</h1>
+      <img class="imgl" id="profile_image" src="images/default_pic.png" alt="profile" height="200" />
+      <form id="completeProfile">
+      <p>
+        Upload Profile Image: <input id="profile_image_upload_button" type="file" required/>
+      </p>
+      <h1>
+        <table>
+          <tr class="dark">
+            <td class="subject">
+              <p>Name:</p>
+            </td>
+            <td>
+              <p><input class="text_field" id="profile_name" type="text" placeholder="Enter your full name" required/></p>
+            </td>
+          </tr>
+          <tr class="light">
+            <td class="subject">
+              <p>Date of Birth:</p>
+            </td>
+            <td>
+              <p><input type="date" class="date_field" id="profile_date_of_birth" min="1980-01-01" max="2002-12-31" required/></p>
+            </td>
+          </tr>
+          <tr class="dark">
+            <td class="subject">
+              <p>Age:</p>
+            </td>
+            <td>
+              <p><span id="profile_age">____</span> years</p>
+            </td>
+          </tr>
+          <tr class="light">
+            <td class="subject">
+              <p>Email:</p>
+            </td>
+            <td>
+              <p><span id="profile_email"></span></p>
+            </td>
+          </tr>
+          <tr class="dark">
+            <td class="subject">
+              <p>Occupation:</p>
+            </td>
+            <td>
+              <p><input class="text_field" id="profile_occupation" type="text" placeholder="Enter your occupation" required/></p>
+            </td>
+          </tr>
+          <tr class="light">
+            <td class="subject">
+              <p>Annual Income:</p>
+            </td>
+            <td>
+              <p><input class="text_field"  id="profile_annual_income" type="number" placeholder="Enter your Income" required></p>
+            </td>
+          </tr>
+          <tr class="dark">
+            <td class="subject">
+              <p>Gender:</p>
+            </td>
+            <td>
+              <p>
+                <select class="select_field" id="profile_gender">
+                  <option value="none">-</option>
+                  <option value="Male">Male</option>
+                  <option value="Female">Female</option>
+                  <option value="Lgbtq">LGBTQ+</option>
+                </select>
+              </p>
+            </td>
+          </tr>
+          <tr class="light">
+            <td class="subject">
+              <p>Hobbies:</p>
+            </td>
+            <td>
+              <p><input class="text_field" id="profile_hobbies" type="text" placeholder="Enter your hobbies" required></span></p>
+            </td>
+          </tr>
+          <tr class="dark">
+            <td colspan="2">
+              <center>
+                <p><input type="submit" id="profile_submit" value="COMPLETE PROFILE"/></p>
+              </center>
+            </td>
+          </tr>
+        </table>
+        </form>
+      </h1>
+      <br><br>
+    </div>
+    <!-- ####################################################################################################### -->
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+<!-- ####################################    FOOTER     #################################################### -->
+<!-- ####################################################################################################### -->
+<div class="wrapper">
+  <div id="footer" class="clear">
+    <div class="footbox last">
+      <h2>Contact Us</h2>
+      <ul>
+        <li><strong class="title">Tel:</strong><br/>
+          +1 (912)-983-4378
+        </li>
+        <li><strong class="title">Email:</strong><br/>
+          <a href="#">support@matrimony.ca</a></li>
+      </ul>
+    </div>
+    <form>
+      <textarea id="query" rows="8" cols="50" placeholder="Write Your Query Here..."></textarea>
+      <br/><br/>
+      <button id="customer_form_submit">SUBMIT</button>
+    </form>
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper">
+  <div id="copyright" class="clear">
+    <p class="fl_left">No Copyright &copy; 2021 @ N01468577 - <a href="#">MANOJ KUMAR BAI</a></p>
+    <p class="fl_right">Reference: Template by <a target="_blank" href="http://www.os-templates.com/"
+                                                  title="Free Website Templates">OS Templates</a></p>
+  </div>
+</div>
+</body>
+</html>

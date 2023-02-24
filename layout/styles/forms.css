@@ -1,0 +1,172 @@
+@charset "utf-8";
+/*
+Template Name: PhotoFolio
+Author: <a href="http://www.os-templates.com/">OS Templates</a>
+Author URI: http://www.os-templates.com/
+Licence: Free to use under our free template licence terms
+Licence URI: http://www.os-templates.com/template-terms
+File: Forms CSS
+*/
+
+form, fieldset, legend{margin:0; padding:0; border:none;}
+legend{display:none;}
+input, textarea, select{font-size:12px; font-family:Georgia, "Times New Roman", Times, serif;}
+
+/* ----------------------------------------------Search Form------------------------------------- */
+
+#search{float:right; margin:5px 15px 0 0;}
+#search input{display:block; float:left; width:190px; height:20px; margin:0; padding:5px 5px 5px 10px; color:#CCCCCC; background:url("images/search_l.gif") 0 0 no-repeat #161616; border:none;}
+#search input#go{width:35px; height:30px; margin:0; padding:0; cursor:pointer; background:none;}
+
+/* ----------------------------------------------Forms in Content Area------------------------------------- */
+
+#container #respond{display:block; width:100%;}
+#container #respond input{width:170px; padding:2px; border:1px solid #CCCCCC; margin:5px 5px 0 0;}
+#container #respond textarea{width:98%; border:1px solid #CCCCCC; padding:2px; overflow:auto;}
+#container #respond p{margin:5px 0;}
+#container #respond #submit, #container #respond #reset{margin:0; padding:5px; color:#666666; background-color:#F7F7F7; border:1px solid #CCCCCC; cursor:pointer;}
+
+/* -----Login Page---- */
+#container form {
+    padding-left: 25%;
+    width:50%
+}
+#container #login input[type=email], input[type=password] {
+  width: 50%;
+  padding: 7px 7px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-size: 15px;
+}
+#container #login label {
+  width: 50%;
+  padding: 15px 15px;
+  font-size: 20px;
+  color: black;
+}
+#container #login input[type=submit] {
+  width: 100%;
+  padding: 15px 15px;
+  font-size: 20px;
+  color: black;
+}
+#container #login input[type=submit]:hover {
+    cursor: pointer;
+}
+#container #login a {
+  padding: 15px 15px;
+  font-size: 20px;
+}
+#container #login a:hover {
+    color: black;
+}
+
+/* -----Signup Page---- */
+#container form {
+    padding-left: 15%;
+    width:70%
+}
+#container #signup input[type=email], input[type=password] {
+  width: 50%;
+  padding: 7px 7px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-size: 15px;
+}
+#container #signup label {
+  width: 30%;
+  padding: 15px 15px;
+  font-size: 20px;
+  color: black;
+}
+#container #signup input[type=submit] {
+  width: 100%;
+  padding: 15px 15px;
+  font-size: 20px;
+  color: black;
+}
+#container #signup input[type=submit]:hover {
+    cursor: pointer;
+}
+#container #signup a {
+  padding: 15px 15px;
+  font-size: 20px;
+}
+#container #signup a:hover {
+    color: black;
+}
+#about {
+    color: black;
+    font-size: 20px;
+}
+
+#query{
+padding: 10px;
+}
+
+.text_field{
+  width: 30%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  padding: 12px 20px 12px 10px;
+  transition: width 0.4s ease-in-out;
+}
+.text_field:focus{
+    width:100%;
+}
+
+.date_field{
+  width: 30%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  padding: 12px 20px 12px 10px;
+}
+
+.select_field{
+  width: 30%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  padding: 12px 20px 12px 10px;
+}
+
+#profile_submit, #customer_form_submit{
+  background-color: #666666;
+  color: white;
+  font-size: 16px;
+  padding: 10px 24px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#profile_submit:hover, #customer_form_submit:hover{
+  background-color: #CCCCCC;
+  color: black;
+}
+
+#completeProfile {
+    padding-left: 0% !important;
+    width:100% !important;
+}
+
+#customer_form_submit{
+  background-color: #666666;
+  color: white;
+  font-size: 12px;
+  padding: 5px 12px;
+  width: 340px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#customer_form_submit:hover{
+  background-color: #CCCCCC;
+  color: black;
+}
+
+

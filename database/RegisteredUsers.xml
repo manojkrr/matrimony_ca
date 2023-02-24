@@ -1,0 +1,10 @@
+<users>
+    <user name="Anushka Sharma" emailId="anushka@gmail.com" password="123" date_of_birth="1997-01-23" gender="Female" occupation="Scientist" annual_income="500000" hobbies="Running" image="./database/users/anushka.webp"/>
+    <user name="Prabhas" emailId="prabhas@gmail.com" password="123" date_of_birth="1995-02-23" gender="Male" occupation="Developer" annual_income="100000" hobbies="Skiing" image="./database/users/prabhas.jpeg"/>
+    <user name="Salman Khan" emailId="salman@gmail.com" password="123" date_of_birth="1993-03-23" gender="Male" occupation="Cyclist" annual_income="20000" hobbies="Cycling" image="./database/users/salman.jpeg"/>
+    <user name="Taapsee" emailId="taapsee@gmail.com" password="123" date_of_birth="1995-05-23" gender="Female" occupation="Product Manager" annual_income="120000" hobbies="Reading Books" image="./database/users/Taapsee.jpeg"/>
+    <user name="Anushka Sharma1" emailId="anushka1@gmail.com" password="123" date_of_birth="1997-01-23" gender="Female" occupation="Scientist" annual_income="500000" hobbies="Running" image="./database/users/anushka1.webp"/>
+    <user name="Prabhas1" emailId="prabhas1@gmail.com" password="123" date_of_birth="1995-02-23" gender="Male" occupation="Developer" annual_income="100000" hobbies="Skiing" image="./database/users/prabhas1.jpeg"/>
+    <user name="Salman Khan1" emailId="salman1@gmail.com" password="123" date_of_birth="1993-03-23" gender="Male" occupation="Cyclist" annual_income="20000" hobbies="Cycling" image="./database/users/salman1.jpeg"/>
+    <user name="Taapsee1" emailId="taapsee1@gmail.com" password="123" date_of_birth="1995-05-23" gender="Female" occupation="Product Manager" annual_income="120000" hobbies="Reading Books" image="./database/users/Taapsee1.jpeg"/>
+</users>
